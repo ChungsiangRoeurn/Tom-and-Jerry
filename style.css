@@ -1,0 +1,145 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body,
+html {
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-right: 100px;
+}
+
+.logo {
+  cursor: pointer;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 50px;
+  width: 30px;
+}
+
+.logo .name {
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.nav-container {
+  display: flex;
+  gap: 80px;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 7px 7px;
+}
+
+li {
+  background-color: rgb(236, 227, 227);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.sign-up {
+  gap: 100px;
+  list-style: none;
+  margin-top: 7px;
+}
+
+.sign-up-1 {
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: yellowgreen;
+}
+
+.everythings {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.main-txt {
+  height: 400px;
+  /* background-color: rgb(172, 157, 187); */
+  width: 700px;
+  margin: 40px 0 0 60px;
+}
+
+.main-txt h1 {
+  color: rgb(74, 51, 51);
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+}
+
+.main-txt-1 {
+  /* height: 10px; */
+  width: 500px;
+  /* background-color: aqua; */
+  margin: 0px 0 0 60px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.email {
+  /* background-color: black; */
+  border: 10px;
+  padding: 20px 0;
+  color: black;
+  border-radius: 80px;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border: 10px;
+  padding: 20px 40px;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 30px;
+  /* font-weight: lighter; */
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+  padding: 20px;
+  /* height: -fit-co */
+}
+
+.all-right {
+  /* background-color: violet; */
+  padding: 10px;
+  margin-top: -50rem;
+}
+
+.tom-jerry {
+  margin-right: 10rem; */
+  width: 0rem;
+  margin-top: 16rem;
+}
